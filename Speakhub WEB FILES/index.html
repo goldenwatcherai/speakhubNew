@@ -61,7 +61,13 @@ button[aria-label="Open contact"],
   display: none !important;
 }
 </style>
-    
+    <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="cf05f9d7-6cf7-448e-ad10-5ae0cfb0b190">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit Form</button>
+</form>
   </head>
 
   <body>
